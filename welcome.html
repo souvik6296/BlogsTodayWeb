@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <div id="container0" class="container">
+        <p class="outro">Thank You!</p>
+        <p class="outro">for Signing Up...</p>
+        <p id="countdown">You will be redirected to the home page in 5s</p>
+    </div>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container {
+            height: 500px;
+            width: 500px;
+            background-color: whitesmoke;
+            border-radius: 15px;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+        }
+        @keyframes scaleup-animation{
+            from{
+                font-size: 0px;
+            }to{
+                font-size: 45px;
+            }
+        }
+        .outro {
+            font-family: 'Dancing Script', cursive;
+            font-size: 45px;
+            color: rgb(6, 251, 6);
+            animation: scaleup-animation 1s 0s 1 linear;
+        }
+
+        body {
+            height: 100%;
+            background-color: #000000;
+
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        
+        #countdown{
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        var sec= 5;
+        window.setInterval(function(){
+            if(sec<0){
+                window.location.href="./home.php";
+            }
+            else{  
+                document.getElementById("countdown").innerText= "You will be redirected to the home page in"+ sec + "s";
+                sec--;
+            }
+        }, 1000);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+.flex-display{
+    display: flex;
+}
+.flex-column-display{
+    display: flex;
+    flex-direction: column;
+}
+.item-align-centre{
+    align-items: center;
+}
+.self-align-centre{
+    align-self: center;
+}
+.content-justify-centre{
+    justify-content: center;
+}
+.content-justify-space-evenly{
+    justify-content: space-evenly;
+}
+.content-justify-space-between{
+    justify-content: space-between;
+}
+.content-justify-space-around{
+    justify-content: space-around;
+}
+.e4e6eb-15px-UI-text{
+    color: #e4e6eb;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bob3b8-15px-UI-text{
+    color: #b0b3b8;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bob2b7-15px-UI-text{
+    color: #b0b2b7;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.white-15px-UI-text{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.light-grey-color-on-hover:hover{
+    background-color: #3a3a3c;
+}
+.color1{
+    color: #ffffff;
+}
+.color2{
+    color:#b0b2b7;
+}
+.color3{
+    color:#2474e1;
+}
+.background-color1{
+    background-color: #3a3a3c;
+}
+.background-color2{
+    background-color: #6f6f6f;
+}
+.background-color3{
+    background-color: #8f8f8f;
+}
+.background-color4{
+    background-color: #18191a;
+}
+.background-color5{
+    background-color: rgb(36, 37, 38);
+}
